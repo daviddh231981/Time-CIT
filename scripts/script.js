@@ -1,9 +1,17 @@
-// Show/hide the navigation display during mobile display.
-// Get the navigation element - should be navRight
-var nav = document.getElementById('navRight'),
-    body = document.body;
+//Dropdown menu
+//when button is selected, show navigation.
+function showNav() {
 
-nav.addEventListener('click', function(e) {
-    body.className = body.className? '' : 'with_nav';
-    e.preventDefault();
-});
+  //NAV variables
+  const navShowContents = document.querySelector("nav");
+  const btnShowNavigation = document.getElementById("navBtn");
+
+  if (navShowContents.style.display === "block") {
+      navShowContents.style.display = "none";
+      btnShowNavigation.innerHTML = "Show<br>Menu"; 
+      topFunction();      
+  } else {
+      navShowContents.style.display = "block"
+      btnShowNavigation.innerHTML = "Hide<br>Menu";
+  }
+}// JavaScript Document
