@@ -8,10 +8,10 @@ function showNav() {
 
   if (navShowContents.style.display === "block") {
       navShowContents.style.display = "none";
-      btnShowNavigation.innerHTML = "Show<br>Menu"; 
+      btnShowNavigation.innerHTML = "Menu"; 
       topFunction();      
   } else {
       navShowContents.style.display = "block"
-      btnShowNavigation.innerHTML = "Hide<br>Menu";
+      btnShowNavigation.innerHTML = "Hide";
   }
 }// JavaScript Document

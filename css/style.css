@@ -115,8 +115,12 @@ footer p {
     font-size: 12px;
 }
 
+img {
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 .post {
-    font-weight: normal;
-    background-color: #003333;
-    display: block;
+    background-color: #553900;
 }
