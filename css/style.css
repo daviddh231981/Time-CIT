@@ -74,6 +74,7 @@ button:hover {
 #topBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
+    background-color: #2E4272;
 }
 
 .main {
